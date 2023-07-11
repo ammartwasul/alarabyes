@@ -30,3 +30,4 @@ const show = () => {
         r = document.querySelector(".icon2");
     "password" === e.type ? ((e.type = "text"), (r.style.opacity = "1"), (t.style.opacity = "0")) : ((e.type = "password"), (r.style.opacity = "0"), (t.style.opacity = "1"));
 };
+
