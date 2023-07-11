@@ -2,7 +2,7 @@
 var storeS = localStorage.getItem("users");
 if (null == storeS) {
     var users = [
-        { username: "Medo", password: "12345" },
+        { username: "Hola", password: "45321" },
         { username: "username_here", password: "password_here" },
     ];
     localStorage.setItem("users", JSON.stringify(users));
